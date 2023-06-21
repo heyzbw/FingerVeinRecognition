@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{54d2271f-8723-4863-a207-c132f02162b8}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{976cb070-bb75-4245-9bb4-3763c0e29967}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{e25c505a-86cc-494b-be1c-8273f32050b4}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;manifest</Extensions>
+    </Filter>
+    <Filter Include="SKinButton">
+      <UniqueIdentifier>{4d027161-1a5e-43fc-a07a-38486c8df8df}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="common.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MainDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FVDemo.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SKinButton\SkinButton.cpp">
+      <Filter>SKinButton</Filter>
+    </ClCompile>
+    <ClCompile Include="Serial.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="common.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MainDlg.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PictureBox.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SKinButton\SkinButton.h">
+      <Filter>SKinButton</Filter>
+    </ClInclude>
+    <ClInclude Include="Serial.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\bg.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BtnHover.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\BtnNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CancelBtnHover.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\CancelBtnNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\closeBtnHover.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\closeBtnNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\EnBtnHover.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\EnBtnNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\IDBtnHover.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\IDBtnNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SaveBtnHover.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\SaveBtnNormal.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\vein.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\fingervein.bmp">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\FVDemo.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="res\PalmVein.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FVDemo.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,290 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "atlres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_MAINDLG DIALOGEX 0, 0, 400, 443
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_SYSMENU
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    PUSHBUTTON      "X",IDC_BTN_CLOSE,369,0,31,26,BS_FLAT
+    RTEXT           "ID：",IDC_STATIC_UID,243,290,31,8
+    EDITTEXT        IDC_EDIT_USERID,286,287,82,14,ES_AUTOHSCROLL
+    LTEXT           "设备GUID",IDC_STATIC_SN,5,431,219,8
+    RTEXT           "当天日期",IDC_STATIC_DATE,293,431,101,8
+    PUSHBUTTON      "1:N识别",IDC_BTN_IDENTIFY,97,310,60,15
+    PUSHBUTTON      "断开",IDC_BTN_DISCONN,97,286,60,15
+    PUSHBUTTON      "登记",IDC_BTN_ENROLL,168,286,60,15
+    RTEXT           "识别模式：",IDC_STATIC_IMODE,234,313,54,8
+    COMBOBOX        IDC_COMBO1,286,311,82,30,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT_REPORT,18,357,364,57,ES_MULTILINE | ES_WANTRETURN | NOT WS_BORDER | WS_VSCROLL
+    PUSHBUTTON      "连接",IDC_BTN_CONN,28,286,60,16
+    PUSHBUTTON      "1:1 比对",IDC_BTN_VERIFY,28,310,60,15
+    PUSHBUTTON      "清除",IDC_BTN_CLEAR,168,310,60,15
+    PUSHBUTTON      "+",IDC_BTN_DEVPARAM,7,311,14,14
+END
+
+IDD_ABOUTBOX DIALOG  0, 0, 187, 102
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "关于"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    DEFPUSHBUTTON   "确定",IDOK,130,81,50,14
+    CTEXT           "ZKPalmVein 应用程序 v1.0\n\n版权所有 (c) 2014",IDC_STATIC,25,57,78,32
+    ICON            IDR_MAINFRAME,IDC_STATIC,55,26,18,20
+    GROUPBOX        "",IDC_STATIC,7,7,115,88
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_MAINDLG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 440
+    END
+
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 95
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP_FV           BITMAP                  "res\\zkfingervein.bmp"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 英语(美国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""atlres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\ZKPalmVein.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY 
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "ZKPalmVein 模块"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ZKPalmVein"
+            VALUE "LegalCopyright", "版权所有 (c) 2014"
+            VALUE "OriginalFilename", "ZKPalmVein.exe"
+            VALUE "ProductName", "ZKPalmVein 模块"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "ZKPalmVein"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "创建一个新文档\n新建"
+    ID_FILE_OPEN            "打开一个已有文档\n打开"
+    ID_FILE_CLOSE           "关闭当前文档\n关闭"
+    ID_FILE_SAVE            "保存当前文档\n保存"
+    ID_FILE_SAVE_AS         "以新名称保存当前文档\n另存为"
+    ID_FILE_PAGE_SETUP      "更改打印选项\n页面设置"
+    ID_FILE_PRINT_SETUP     "更改打印机和打印选项\n打印设置"
+    ID_FILE_PRINT           "打印当前文档\n打印"
+    ID_FILE_PRINT_PREVIEW   "显示全页\n打印预览"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "显示程序信息、版本号和版权信息\n关于"
+    ID_APP_EXIT             "退出应用程序；提示保存文档\n退出"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "切换到下一个窗口窗格\n下一个窗格"
+    ID_PREV_PANE            "切换回上一个窗口窗格\n上一个窗格"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_NEW           "为当前文档打开一个新窗口\n新建窗口"
+    ID_WINDOW_ARRANGE       "在窗口底部排列图标\n排列图标"
+    ID_WINDOW_CASCADE       "使窗口重叠显示\n层叠窗口"
+    ID_WINDOW_TILE_HORZ     "使窗口并列显示\n横向平铺窗口"
+    ID_WINDOW_TILE_VERT     "使窗口并列显示\n纵向平铺窗口"
+    ID_WINDOW_SPLIT         "将当前窗口分割为窗格\n分割"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "清除所选内容\n清除"
+    ID_EDIT_CLEAR_ALL       "清除所有内容\n全部清除"
+    ID_EDIT_COPY            "复制所选内容到剪贴板\n复制"
+    ID_EDIT_CUT             "剪切所选内容到剪贴板\n剪切"
+    ID_EDIT_FIND            "查找指定的文本\n查找"
+    ID_EDIT_PASTE           "插入剪贴板内容\n粘贴"
+    ID_EDIT_REPEAT          "重复上一次操作\n重复"
+    ID_EDIT_REPLACE         "替换指定文本为其他文本\n替换"
+    ID_EDIT_SELECT_ALL      "选择整个文档\n全选"
+    ID_EDIT_UNDO            "撤销上一次操作\n撤销"
+    ID_EDIT_REDO            "恢复上次撤销的操作\n重做"
+END
+
+STRINGTABLE 
+BEGIN
+    ATL_IDS_SCSIZE          "改变窗口大小"
+    ATL_IDS_SCMOVE          "改变窗口位置"
+    ATL_IDS_SCMINIMIZE      "将窗口最小化为图标"
+    ATL_IDS_SCMAXIMIZE      "将窗口最大化"
+    ATL_IDS_SCNEXTWINDOW    "将窗口移到前面"
+    ATL_IDS_SCPREVWINDOW    "将窗口移到后面"
+    ATL_IDS_SCCLOSE         "关闭窗口"
+    ATL_IDS_SCRESTORE       "恢复窗口"
+    ATL_IDS_SCTASKLIST      "任务列表"
+END
+
+STRINGTABLE 
+BEGIN
+    IDC_STATIC              ""
+END
+#endif    // 英语(美国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+
+//由于资源编辑器无法处理这些项，因此它们将在此处定义。
+#define _APS_NEXT_RESOURCE_VALUE        133
+#define _APS_NEXT_COMMAND_VALUE         40001
+#define _APS_NEXT_CONTROL_VALUE         1017
+#define _APS_NEXT_SYMED_VALUE           101
+#endif

@@ -1,0 +1,27 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  stdafx.cpp
+cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  FVDemo.cpp
+C:\Users\16033\Desktop\指静脉\FingerVein SDK for Windows\C++\sample\FVDemo2\FVDemo2\FVDemo.cpp(44,25): warning C4244: “=”: 从“INT_PTR”转换到“int”，可能丢失数据
+  SkinButton.cpp
+  MainDlg.cpp
+  common.cpp
+C:\Users\16033\Desktop\指静脉\FingerVein SDK for Windows\C++\sample\FVDemo2\FVDemo2\common.cpp(34,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1389,5): warning MSB8012: TargetPath(C:\Users\16033\Desktop\指静脉\FingerVein SDK for Windows\C++\sample\FVDemo2\x64\Debug\FVDemo2.exe) 与 Linker 的 OutputFile 属性值(C:\Users\16033\Desktop\指静脉\FingerVein SDK for Windows\C++\sample\x64\Debug\FVDemo2.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_GetSDKVersion，函数 "public: __int64 __cdecl CMainDlg::OnBnConn(unsigned short,unsigned short,struct HWND__ *,int &)" (?OnBnConn@CMainDlg@@QEAA_JGGPEAUHWND__@@AEAH@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_Init，函数 "public: __int64 __cdecl CMainDlg::OnBnConn(unsigned short,unsigned short,struct HWND__ *,int &)" (?OnBnConn@CMainDlg@@QEAA_JGGPEAUHWND__@@AEAH@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_Terminate，函数 "public: __int64 __cdecl CMainDlg::OnBnConn(unsigned short,unsigned short,struct HWND__ *,int &)" (?OnBnConn@CMainDlg@@QEAA_JGGPEAUHWND__@@AEAH@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_OpenDevice，函数 "public: __int64 __cdecl CMainDlg::OnBnConn(unsigned short,unsigned short,struct HWND__ *,int &)" (?OnBnConn@CMainDlg@@QEAA_JGGPEAUHWND__@@AEAH@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_CloseDevice，函数 "public: __int64 __cdecl CMainDlg::OnBnConn(unsigned short,unsigned short,struct HWND__ *,int &)" (?OnBnConn@CMainDlg@@QEAA_JGGPEAUHWND__@@AEAH@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_GetParameter，函数 "public: __int64 __cdecl CMainDlg::OnBnConn(unsigned short,unsigned short,struct HWND__ *,int &)" (?OnBnConn@CMainDlg@@QEAA_JGGPEAUHWND__@@AEAH@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_CaptureFingerVeinImageAndTemplate，函数 "public: static unsigned long __cdecl CMainDlg::ThreadCapture(void *)" (?ThreadCapture@CMainDlg@@SAKPEAX@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_Verify，函数 "public: void __cdecl CMainDlg::DoRegister(unsigned char *,int,unsigned char *,int,unsigned char *,int,unsigned char *,int)" (?DoRegister@CMainDlg@@QEAAXPEAEH0H0H0H@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_DBInit，函数 "public: __int64 __cdecl CMainDlg::OnBnConn(unsigned short,unsigned short,struct HWND__ *,int &)" (?OnBnConn@CMainDlg@@QEAA_JGGPEAUHWND__@@AEAH@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_DBFree，函数 "public: __int64 __cdecl CMainDlg::OnBnDisConn(unsigned short,unsigned short,struct HWND__ *,int &)" (?OnBnDisConn@CMainDlg@@QEAA_JGGPEAUHWND__@@AEAH@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_DBAdd，函数 "public: void __cdecl CMainDlg::DoRegister(unsigned char *,int,unsigned char *,int,unsigned char *,int,unsigned char *,int)" (?DoRegister@CMainDlg@@QEAAXPEAEH0H0H0H@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_DBClear，函数 "public: __int64 __cdecl CMainDlg::OnBnClear(unsigned short,unsigned short,struct HWND__ *,int &)" (?OnBnClear@CMainDlg@@QEAA_JGGPEAUHWND__@@AEAH@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_DBIdentify，函数 "public: void __cdecl CMainDlg::DoVerify(unsigned char *,int,unsigned char *,int)" (?DoVerify@CMainDlg@@QEAAXPEAEH0H@Z) 中引用了该符号
+MainDlg.obj : error LNK2019: 无法解析的外部符号 FingerVein_DBHybridIdentify，函数 "public: void __cdecl CMainDlg::DoVerify(unsigned char *,int,unsigned char *,int)" (?DoVerify@CMainDlg@@QEAAXPEAEH0H@Z) 中引用了该符号
+libfv\x86lib\fvapi.lib : warning LNK4272: 库计算机类型“x86”与目标计算机类型“x64”冲突
+..\..\x64\Debug\FVDemo2.exe : fatal error LNK1120: 14 个无法解析的外部命令

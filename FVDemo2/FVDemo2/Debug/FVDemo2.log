@@ -1,0 +1,13 @@
+﻿cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  stdafx.cpp
+cl : 命令行  warning D9035: “Gm”选项已否决，并将在将来的版本中移除
+  FVDemo.cpp
+  SkinButton.cpp
+  Serial.cpp
+  MainDlg.cpp
+  common.cpp
+C:\Users\16033\Desktop\指静脉\FingerVein SDK for Windows\C++\sample\FVDemo2\FVDemo2\common.cpp(34,10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  正在生成代码...
+E:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1389,5): warning MSB8012: TargetPath(C:\Users\16033\Desktop\指静脉\FingerVein SDK for Windows\C++\sample\Debug\x86\FVDemo2.exe) 与 Linker 的 OutputFile 属性值(C:\Users\16033\Desktop\指静脉\FingerVein SDK for Windows\C++\sample\Debug\FVDemo2.exe)不匹配。这可能导致项目生成不正确。若要更正此问题，请确保 $(OutDir)、$(TargetName) 和 $(TargetExt) 属性值与 %(Link.OutputFile) 中指定的值匹配。
+common.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/SAFESEH”规范)
+  FVDemo2.vcxproj -> C:\Users\16033\Desktop\指静脉\FingerVein SDK for Windows\C++\sample\Debug\x86\FVDemo2.exe
